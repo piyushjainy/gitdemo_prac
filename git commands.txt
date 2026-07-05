@@ -1,0 +1,12 @@
+1. git init
+2. git config --global user.email "piyush@gmail.com"
+3. git config --global user.name "piyush"
+4. git add first.txt
+5. git add .
+6. git commit -m "project started"
+7. git diff   (for checking differences commit and temp working)
+8. git diff --staged   (for checking differences commit and staging area)
+9. git restore first.txt (remove everything from temp working , it will remove file changes)
+10. git restore --staged first.txt (remove everything from staging to temp working, it will not remove file changes)
+11. git reset --soft head~1 (remove last commit and file will goto staging area)
+12. git reset --hard head~1 (remove last commit and file changes will be lost)
